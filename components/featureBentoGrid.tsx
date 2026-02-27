@@ -11,8 +11,7 @@ import {
 } from "@tabler/icons-react";
 import { motion } from "motion/react";
 
-
-export default function FeatureBentoGrid() {
+export function featureBentoGrid() {
   return (
     <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem]">
       {items.map((item, i) => (
